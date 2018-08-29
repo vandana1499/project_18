@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      
+
+    <div class="container">
+        <div class="card">
+             <p id="tag">Add a reminder</p>
+             <form action="" id="form">
+                     
+                    <input type="text" name="Title" id="title" placeholder="Add a title">
+                    <br><br>
+                    <p>Place</p> &nbsp;
+                    <input type="radio" name="option" id="Place" > 
+                    &nbsp;
+                    <p>Time</p> &nbsp;
+                    <input type="radio" name="option" id="Time">
+            
+             </form>
+
+
+             <div class="place">
+                 <p>Location</p>
+                 <br>
+              <select name="Pl" id="">
+                  
+                  <option value="" selected></option>
+                  <option value="Home">Home</option>
+                  <option value="Work">Work</option>
+              </select>
+              <hr>
+             </div>
+
+             <div class="time">
+                <p>Date</p>
+                <br>
+                <select name="day" id="">
+                        <option value="" selected></option>
+                    <option value="">Tommorrow</option>
+                    <option value="">Today</option>
+                </select>
+                <hr>
+                <br>
+                 <p>Time</p>
+                <br>
+               
+                    
+                
+                    <select name="evt" id="">
+                    <option value="" selected></option>
+                    <option value="">Morning</option>
+                    <option value="">Afternoon</option>
+                    <option value="">Evening</option>
+                    <option value="">All day</option>
+                    </select>
+                <hr> 
+                <br>
+                <p>Repeat</p>
+                <br>
+                <select name="Rea" id="">
+                        <option value="" selected></option>
+
+                    <option value="Repeat">
+                        Repeat Daily
+                    </option>
+                    <option value="No-repeat">
+                        none
+                    </option>
+                </select>
+                <hr>
+             </div>
+
+             <div class="final">
+                 <button type="submit" id="submit">
+                     Submit
+                 </button>
+             </div>
+
+           <div id="info">
+
+                    
+             
+              
+
+           </div>
+
+
+
+
+
+        </div>
+    </div>
+
+
+
+    
+      
+    <script src="script.js"></script>
+</body>
+</html>

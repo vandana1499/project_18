@@ -1,0 +1,138 @@
+*
+{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    color:gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+
+.container
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+     justify-content: center;
+    align-items: center;
+   
+}
+
+.card
+{
+    width:400px;
+    min-height:200px;
+    box-shadow: inset 2px 0 3px -2px gray ,inset -2px 0 3px -2px gray
+    ,inset 0 -2px 2px -2px gray,inset 0 0 1px 2px gray,0 0 1px 2px gray,0 10px 20px 0 #494547 ;
+    border-top-left-radius: 80% 20px;
+    border-top-right-radius: 80% 20px;
+    border-bottom-left-radius: 80% 20px;
+    border-bottom-right-radius: 80% 20px;
+    padding:20px 30px;
+ 
+}
+.card p
+{
+    color:gray;
+}
+
+#form input[type="text"]{
+    width:300px;
+    outline: none;
+    border:none;
+    border-bottom: 1px solid gray;
+    text-align: right;
+}
+#form input[type="text"]:focused
+{
+    outline:none;
+    border-bottom: 1px solid skyblue;
+  
+}
+
+
+
+#form
+{
+    margin-top:20px;
+    width:350px;
+    min-height:70px;
+    
+
+}
+p{
+    display: inline-block;
+}
+#tag
+{
+    display: block;
+}
+
+.place
+{
+    text-align: right;
+    padding-right:20px;
+    display: none;
+    margin-bottom:30px;
+}
+
+select
+{ 
+    border: transparent;
+   
+  
+ 
+    width: 200px;
+    padding: 6px 15px 6px 15px;
+    border-radius: 20px;
+    
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+   
+    -webkit-transition: all 0.7s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    transition: all 0.7s ease 0s;
+
+}
+
+select:focus{
+    width: 250px;
+
+}
+   
+  
+.time
+{
+    
+    text-align: right;
+    padding-right:20px;
+    display: none;
+
+}
+#submit
+{
+    margin-top: 20px;
+    border:none;
+    outline:none;
+    width:70px;
+    height:25px;
+    border-radius: 10px;
+    border:1px solid gray;
+    color:#111;
+    
+}
+#submit:hover{
+    cursor: pointer;
+    border-color: #111;
+    color:#111
+}
+#submit:active
+{
+    outline: none;
+    width:78px;
+    cursor: pointer;
+}
